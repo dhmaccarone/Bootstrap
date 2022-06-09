@@ -15,20 +15,13 @@ body{
 .header__nav{
     font-family: 'Play', sans-serif;
     background-color: rgb(193 5 9);
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid #f0ec00;
 
 }
-.navbar{
+.navbar{    
     display: table;  
     float: none !important;
     margin: auto !important;
-}
-.navbar-brand{
-    color: white;
-    }
-
-.nav-link{
-    color: white;
 }
 
 .tamañoLogo{
@@ -40,6 +33,8 @@ body{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 65%, rgba(0, 0, 0, 0.7));
     width: 100%;
     z-index: 8;
+    margin-top: 3px;
+  
 }
 .section__index{
     margin: 20px;
@@ -50,7 +45,7 @@ body{
 
 /* Index */
 
-.texto__index{
+.texto{
     font-size: 1rem;
     margin: 0 100px 50px 100px;
 }
@@ -98,20 +93,18 @@ body{
 }
 
 
+
 /* Footer */
 
 footer{
     background-color:rgb(193 5 9) ;
+    border-top: 3px solid #f0ec00;
 }
 .btn{
    margin: auto;
 }
 .btn-help{
     font-family: 'Play', sans-serif;
-    font-size: 15px;
-    width: 100px;
-    height: 40px;
-    color: white;
     cursor: pointer;
     outline: none;
     border-radius: 5px;
@@ -122,25 +115,42 @@ footer{
 .btn-help:hover{
     box-shadow: 2px 2px 15px 2px rgba(255, 255, 255);
 }
-
-
-
+    
+.redes{
+    display: flex;
+    justify-content: flex-end;
+}
+.redes__img{
+    width: 40px;
+    height: 40px;
+}
 .redes ul li {
     display: inline-block;
     padding: 30px;
+  
 }
 .redes ul li a {
     font-family: 'Play', sans-serif;
     text-decoration: none;
     font-size: 1.1rem;
     color: #fff;
-
 }
 
 /* Media Querys */
 @media (max-width: 767.98px) { 
     .texto{
-        font-size: 10px;
+        font-size: 15px;
         line-height: 1.5rem;
+    }
+ }
+
+
+ @media (max-width: 576px) { 
+    .texto{
+        font-size: 10px;
+        line-height: 1rem;
+        margin: 30px;
+
+         /* Probar utilizar el grid del Footer */
     }
  }
