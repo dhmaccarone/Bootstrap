@@ -1,0 +1,36 @@
+.footer {
+    background-color: $bg-red;
+    border-top: 3px solid #f0ec00;
+    .footer__btn {
+        margin: auto;
+        .footer__btn__help {
+            font-family: $titulo;
+            cursor: pointer;
+            outline: none;
+            border-radius: 5px;
+            background: rgb(0, 41, 154);
+            border: none;
+            &:hover {
+                box-shadow: 2px 2px 15px 2px #ffffff;
+            }
+        }
+
+    }
+    .redes {
+        display: flex;
+        justify-content: flex-end;
+        
+        ul li {
+            display: inline-block;
+            padding: 30px;
+            a {
+                text-decoration: none;
+                .redes__img {
+                    width: 40px;
+                    height: 40px;
+                }
+    
+            }
+        }
+    }
+}
