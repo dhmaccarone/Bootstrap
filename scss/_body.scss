@@ -1,6 +1,7 @@
 $bg-red:#c10509;
-$text: 'PT Sans Caption', sans-serif;
-$titulo: 'Play', sans-serif;
+$text: 'PT Sans Caption',
+sans-serif;
+$titulo: 'Play',sans-serif;
 
 * {
     margin: 0;
@@ -8,8 +9,24 @@ $titulo: 'Play', sans-serif;
     box-sizing: border-box;
 }
 
-// Header
-
 body {
     font-family: $text;
+}
+
+/* Media Querys */
+@media (max-width: 767.98px) {
+    .section__texto {
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .section__texto {
+        font-size: 12px;
+        line-height: 1rem;
+        margin: 10px;
+        text-align: justify;
+    }
 }

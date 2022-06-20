@@ -1,0 +1,16 @@
+
+.imagen__piloto{
+    animation: fadeInLeft;
+    animation-duration: 2s; 
+}
+
+.texto__piloto {
+    font-family: $text;
+    font-size: 1rem;
+    margin: 40px;
+    animation: fadeInRight;
+    animation-duration: 2s;
+    .titulo__piloto{
+        font-family: $titulo;
+    }
+}

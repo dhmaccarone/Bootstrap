@@ -2,101 +2,130 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  font-family: "PT Sans Caption", sans-serif;
-}
+  font-family: "PT Sans Caption", sans-serif; }
+
+/* Media Querys */
+@media (max-width: 767.98px) {
+  .section__texto {
+    font-size: 15px;
+    line-height: 1.5rem; } }
+
+@media (max-width: 576px) {
+  .section__texto {
+    font-size: 12px;
+    line-height: 1rem;
+    margin: 10px;
+    text-align: justify; } }
 
 .header__nav {
   font-family: "Play", sans-serif;
   background-color: #c10509;
-  border-bottom: 3px solid #f0ec00;
-}
+  border-bottom: 3px solid #f0ec00; }
+  .header__nav .header__navbar {
+    display: table;
+    float: none !important;
+    margin: auto !important; }
+  .header__nav .header__logo {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 65%, rgba(0, 0, 0, 0.7));
+    width: 100%;
+    z-index: 8;
+    margin-top: 3px; }
+    .header__nav .header__logo .header__logo__tamaño {
+      height: 40px;
+      width: 60px;
+      margin-top: 5px; }
 
-.header__nav .header__navbar {
-  display: table;
-  float: none !important;
-  margin: auto !important;
-}
-
-.header__nav .header__logo {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 65%, rgba(0, 0, 0, 0.7));
-  width: 100%;
-  z-index: 8;
-  margin-top: 3px;
-}
-
-.header__nav .header__logo .header__logo__tamaño {
-  height: 40px;
-  width: 60px;
-  margin-top: 5px;
-}
+.section__img {
+  margin-top: 40px; }
+  .section__img .section__img_ferrari {
+    border-radius: 15px; }
 
 .section__index {
   margin: 20px;
-  line-height: 2.2rem;
-}
+  line-height: 2.2rem; }
+  .section__index .section__titulo {
+    font-family: "Play", sans-serif;
+    margin: 30px;
+    text-align: center; }
+    .section__index .section__titulo .section__texto {
+      font-size: 1rem;
+      margin: 0 100px 50px 00px;
+      justify-content: center;
+      text-align: justify; }
+  .section__index .section__texto {
+    font-size: 1rem;
+    margin: 0 100px 50px 100px;
+    justify-content: center;
+    text-align: justify; }
 
-.section__index .section__titulo {
-  font-family: "Play", sans-serif;
-  margin: 30px;
+.titulo__f1 {
+  font-family: 'Play', sans-serif;
   text-align: center;
-}
+  margin-top: 40px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff; }
 
-.section__index .section__titulo .section__texto {
-  font-size: 1rem;
-  margin: 0 100px 50px 00px;
-  justify-content: center;
-  text-align: justify;
-}
+.carousel__f1 {
+  border: #fff solid 4px;
+  border-radius: 10px; }
+  .carousel__f1 .carousel__img {
+    border-radius: 10px; }
 
-.section__index .section__texto {
+.container__video__f1 {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .container__video__f1 .video__f1 {
+    border: #fff solid 4px;
+    border-radius: 10px; }
+
+.imagen__piloto {
+  animation: fadeInLeft;
+  animation-duration: 2s; }
+
+.texto__piloto {
+  font-family: "PT Sans Caption", sans-serif;
   font-size: 1rem;
-  margin: 0 100px 50px 100px;
-  justify-content: center;
-  text-align: justify;
-}
+  margin: 40px;
+  animation: fadeInRight;
+  animation-duration: 2s; }
+  .texto__piloto .titulo__piloto {
+    font-family: "Play", sans-serif; }
+
+.titulo__calendario {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Play", sans-serif;
+  font-size: 3rem; }
+
+.img__calendario {
+  width: 1000px;
+  justify-items: center;
+  margin: 30px 30px 60px 150px; }
 
 .footer {
   background-color: #c10509;
-  border-top: 3px solid #f0ec00;
-}
-
-.footer .footer__btn {
-  margin: auto;
-}
-
-.footer .footer__btn .footer__btn__help {
-  font-family: "Play", sans-serif;
-  cursor: pointer;
-  outline: none;
-  border-radius: 5px;
-  background: #00299a;
-  border: none;
-}
-
-.footer .footer__btn .footer__btn__help:hover {
-  box-shadow: 2px 2px 15px 2px #ffffff;
-}
-
-.footer .redes {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.footer .redes ul li {
-  display: inline-block;
-  padding: 30px;
-}
-
-.footer .redes ul li a {
-  text-decoration: none;
-}
-
-.footer .redes ul li a .redes__img {
-  width: 40px;
-  height: 40px;
-}
-/*# sourceMappingURL=estilo.css.map */
+  border-top: 3px solid #f0ec00; }
+  .footer .footer__btn {
+    margin: auto; }
+    .footer .footer__btn .footer__btn__help {
+      font-family: "Play", sans-serif;
+      cursor: pointer;
+      outline: none;
+      border-radius: 5px;
+      background: #00299a;
+      border: none; }
+      .footer .footer__btn .footer__btn__help:hover {
+        box-shadow: 2px 2px 15px 2px #ffffff; }
+  .footer .redes {
+    display: flex;
+    justify-content: flex-end; }
+    .footer .redes ul li {
+      display: inline-block;
+      padding: 30px; }
+      .footer .redes ul li a {
+        text-decoration: none; }
+        .footer .redes ul li a .redes__img {
+          width: 40px;
+          height: 40px; }
