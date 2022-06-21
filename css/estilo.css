@@ -104,12 +104,43 @@ body {
   justify-items: center;
   margin: 30px 30px 60px 150px; }
 
+.formulario {
+  margin: 20px auto;
+  max-width: 700px;
+  background-color: #ddff02;
+  border-radius: 10px;
+  padding: 10px; }
+  .formulario .btn__enviar {
+    background-color: #c10509;
+    color: #d7d700;
+    font-family: "Play", sans-serif;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    background: #00299a;
+    border: none; }
+    .formulario .btn__enviar:hover {
+      box-shadow: 2px 2px 15px 2px #ffffff; }
+  .formulario .btn__limpiar {
+    background-color: white;
+    color: white;
+    font-family: "Play", sans-serif;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    background: #00299a;
+    border: none; }
+    .formulario .btn__limpiar:hover {
+      box-shadow: 2px 2px 15px 2px #ffffff; }
+
 .footer {
   background-color: #c10509;
   border-top: 3px solid #f0ec00; }
   .footer .footer__btn {
     margin: auto; }
     .footer .footer__btn .footer__btn__help {
+      background-color: #d7d700;
+      color: #48f148;
       font-family: "Play", sans-serif;
       cursor: pointer;
       outline: none;
@@ -118,14 +149,15 @@ body {
       border: none; }
       .footer .footer__btn .footer__btn__help:hover {
         box-shadow: 2px 2px 15px 2px #ffffff; }
-  .footer .redes {
-    display: flex;
-    justify-content: flex-end; }
-    .footer .redes ul li {
-      display: inline-block;
-      padding: 30px; }
-      .footer .redes ul li a {
-        text-decoration: none; }
-        .footer .redes ul li a .redes__img {
-          width: 40px;
-          height: 40px; }
+
+.redes {
+  display: flex;
+  justify-content: flex-end; }
+  .redes ul li {
+    display: inline-block;
+    padding: 30px; }
+    .redes ul li a {
+      text-decoration: none; }
+      .redes ul li a .redes__img {
+        width: 40px;
+        height: 40px; }

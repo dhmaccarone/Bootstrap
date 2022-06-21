@@ -9,3 +9,20 @@
     justify-items: center;
     margin: 30px 30px 60px 150px;
 }
+
+.formulario{
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: rgb(221, 255, 2);
+    border-radius: 10px;
+    padding: 10px;
+
+    .btn__enviar{
+        @include estilo__btn($bg-red,$bg-yellow)
+
+    }
+    .btn__limpiar{
+       @include estilo__btn($white,$white)
+
+    }
+}

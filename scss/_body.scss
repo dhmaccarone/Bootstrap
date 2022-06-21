@@ -1,8 +1,26 @@
 $bg-red:#c10509;
+$bg-blue:rgb(0, 0, 198);
+$bg-yellow:rgb(215, 215, 0);
+$bg_green:#48f148;
+$white:white;
 $text: 'PT Sans Caption',
 sans-serif;
 $titulo: 'Play',sans-serif;
 
+@mixin estilo__btn ($bg,$color){
+    background-color: $bg;
+    color: $color;
+    font-family: $titulo;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(0, 41, 154);
+    border: none;
+    &:hover {
+        box-shadow: 2px 2px 15px 2px #ffffff;
+}
+ }
+ 
 * {
     margin: 0;
     padding: 0;

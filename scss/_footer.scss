@@ -6,14 +6,7 @@
         margin: auto;
 
         .footer__btn__help {
-            font-family: $titulo;
-            cursor: pointer;
-            outline: none;
-            border-radius: 5px;
-            background: rgb(0, 41, 154);
-            border: none;
-            &:hover {
-                box-shadow: 2px 2px 15px 2px #ffffff;
+            @include estilo__btn ($bg-yellow, $bg_green)
             }
         }
     }
@@ -33,4 +26,3 @@
             }
         }
     }
-}
