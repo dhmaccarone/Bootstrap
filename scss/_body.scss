@@ -3,11 +3,18 @@ $bg-blue:rgb(0, 0, 198);
 $bg-yellow:rgb(215, 215, 0);
 $bg_green:#48f148;
 $white:white;
-$text: 'PT Sans Caption',
+$text: 'PT Sans Caption', sans-serif;
+$titulo: 'Play', sans-serif;
+$nav:'Merriweather Sans',
 sans-serif;
-$titulo: 'Play',sans-serif;
 
-@mixin estilo__btn ($bg,$color){
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin estilo__btn ($bg, $color) {
     background-color: $bg;
     color: $color;
     font-family: $titulo;
@@ -16,15 +23,10 @@ $titulo: 'Play',sans-serif;
     border-radius: 5px;
     background: rgb(0, 41, 154);
     border: none;
+
     &:hover {
         box-shadow: 2px 2px 15px 2px #ffffff;
-}
- }
- 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    }
 }
 
 body {
@@ -41,10 +43,12 @@ body {
 
 
 @media (max-width: 576px) {
+
+    .section__index,
     .section__texto {
         font-size: 12px;
         line-height: 1rem;
-        margin: 10px;
         text-align: justify;
+        margin: 3px;
     }
 }

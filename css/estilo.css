@@ -14,14 +14,15 @@ body {
     line-height: 1.5rem; } }
 
 @media (max-width: 576px) {
+  .section__index,
   .section__texto {
     font-size: 12px;
     line-height: 1rem;
-    margin: 10px;
-    text-align: justify; } }
+    text-align: justify;
+    margin: 3px; } }
 
 .header__nav {
-  font-family: "Play", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   background-color: #c10509;
   border-bottom: 3px solid #f0ec00; }
   .header__nav .header__navbar {
@@ -68,7 +69,7 @@ body {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff; }
 
 .carousel__f1 {
-  border: #fff solid 4px;
+  border: #fff solid 1px;
   border-radius: 10px; }
   .carousel__f1 .carousel__img {
     border-radius: 10px; }
@@ -77,7 +78,7 @@ body {
   margin-top: 30px;
   margin-bottom: 30px; }
   .container__video__f1 .video__f1 {
-    border: #fff solid 4px;
+    border: #fff solid 1px;
     border-radius: 10px; }
 
 .imagen__piloto {
