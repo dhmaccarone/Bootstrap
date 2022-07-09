@@ -1,13 +1,18 @@
 .titulo__f1 {
     font-family: 'Play', sans-serif;
+    font-size: 4rem;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
+    animation: bounceIn;
+    animation-duration: 2s;
+
     text-shadow:
     0 0 10px #fff,
     0 0 20px #fff,
     0 0 40px #fff;
  }
 .carousel__f1{
+    margin-top: 30px;
     border: #fff solid 1px;
     border-radius: 10px;
     .carousel__img{

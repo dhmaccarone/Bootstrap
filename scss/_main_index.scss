@@ -1,6 +1,6 @@
 
 .section__img{
-    margin-top: 40px;
+    margin-top: 70px;
     .section__img_ferrari{
         border-radius: 15px;
     }
@@ -9,7 +9,7 @@
 
 
 .section__index {
-    margin: 20px;
+    margin: 20px auto;
     line-height: 2.2rem;
    .section__titulo{
        font-family:$titulo;
@@ -25,7 +25,7 @@
    }
    .section__texto{
        font-size: 1rem;
-       margin: 0 100px 50px 100px;
+       margin: 0 50px 50px 50px;
        justify-content: center;
        text-align: justify;
       

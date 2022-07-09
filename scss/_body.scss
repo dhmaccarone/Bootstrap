@@ -21,8 +21,9 @@ sans-serif;
     cursor: pointer;
     outline: none;
     border-radius: 5px;
-    background: rgb(0, 41, 154);
+    background: #383f53;
     border: none;
+    
 
     &:hover {
         box-shadow: 2px 2px 15px 2px #ffffff;
@@ -34,21 +35,22 @@ body {
 }
 
 /* Media Querys */
-@media (max-width: 767.98px) {
-    .section__texto {
-        font-size: 15px;
-        line-height: 1.5rem;
-    }
-}
+// @media (max-width: 767.98px) {
+//     .section__texto {
+//         font-size: 15px;
+//         line-height: 1.5rem;
+//     }
+// }
 
 
-@media (max-width: 576px) {
+// @media (max-width: 576px) {
 
-    .section__index,
-    .section__texto {
-        font-size: 12px;
-        line-height: 1rem;
-        text-align: justify;
-        margin: 3px;
-    }
-}
+//     .section__index,
+//     .section__texto {
+//         margin: 0 50px 50px 50px;
+//         font-size: 12px;
+//         line-height: 1rem;
+//         text-align: justify;
+        
+//     }
+// }

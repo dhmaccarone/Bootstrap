@@ -1,0 +1,25 @@
+
+
+#galeria__campeones{
+    .campeones__titulo{
+        font-family: $titulo;
+        font-size: 3rem;}
+        p{
+            font-family: $text;
+            font-size: 1.5rem;
+        }
+}
+
+
+#galeria__campeones .col-lg-4{
+    padding: 25px;
+    
+  
+}
+#galeria__campeones img {
+   
+    width: 100%;
+    height: 250px;
+    &:hover{
+        border: 5px solid #f7f7f7;}  
+} 

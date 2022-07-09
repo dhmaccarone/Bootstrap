@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- CSS only -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Información sobre Scuderia Ferrari de Formula 1 en LATAM, donde encontraran información sobre carreras, galerias de foto y campeones historicos">
+  <meta name="keywords"
+    content="FERRARI, F1, LECLERC, SAINZ, TIFOSI, RACE, FORMULA 1, CALENDARIO F1. F1-75, TEAM, LATAM, FANGIO, ASCARI, RAIKKONEN, SCHUMACHER, LAUDA, HILL">
+
+  <!-- CSS only -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Play&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="../css/estilo.css">
-    <title>Scuderia Ferrari</title>
+  <link rel="icon" href="../Ferrari IMG/Principal/favicon-32x32.png">
+  <title>Scuderia Ferrari</title>
 </head>
-<body>
+
+<body class="bg-dark">
   <header class="header__nav">
-    <nav class="header__navbar navbar navbar-expand-lg text-light">
+    <nav class="header__navbar navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand text-light" href="../index.html">Home</a>
+        <a class="navbar-brand " href="../index.html"><img src="../Ferrari IMG/Principal/caballo52.png"
+            alt="Logo Ferrari Home"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,95 +35,72 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-light" href="./f1-75.html">F1-75</a>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="./Pilotos.html">PILOTOS</a>
-              </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="./pages/campeones.html">CAMPEONES</a>
-            </li> -->
+              <a class="nav-link boton" href="../pages/f1-75.html">F1-75</a>
             <li class="nav-item">
-              <a class="nav-link text-light" href="./Calendario.html">CALENDARIO</a>
+              <a class="nav-link boton" href="../pages/Pilotos.html">PILOTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link boton" href="../pages/Calendario.html">CALENDARIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link boton" href="../pages/Campeones.html">CAMPEONES</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="header__logo position-fixed">
-      <img src="../Ferrari IMG/logo ferrari.png" alt="logo" class="header__logo__tamaño sticky-top px-3 img-fluid">
+    <div class="header__logo position-absolute">
+      <img src="../Ferrari IMG/Principal/logo ferrari.png" alt="logo"
+        class="header__logo__tamaño sticky-top px-3 img-fluid">
     </div>
   </header>
-    <main id="formulario" >
-      <!--Formulario de contacto-->
-
-    <section>
-      <div>
-      <form action="#">
-          <h2 class="formulario__titulo">Dejanos tu opinión</h2>
-
-          <div>
-              <label for="Nombre" >Nombre:</label>
-              <input type="text" required class="datos">
-          </div>
-
-          <div>
-              <label for="Apellido">Apellido</label>
-              <input type="text" required class="datos">
-          </div>
-
-          <div>
-              <label for="Email">Mail</label>
-              <input type="email" required class="datos">
-          </div>
-
-          <div>
-              <select name="sexo" required>
-                  <option value="id-0">Sexo</option>
-                  <option value="Opción1">Hombre</option>
-                  <option value="Opción2">Mujer</option>
-                  <option value="Opción3">No binario</option>
-              </select>
-          </div>
-
-          <div>
-              <textarea name="text" id="" cols="30" rows="10" required></textarea>
-          </div>
-
-          <div>
-              <button>Enviar</button>
-              <button type="reset">Limpiar</button>
-          </div>
-      
-      </form>
+  <main>
+    <section id="galeria__campeones" class="container">
+      <div class="text-center pt-5">
+        <h2 class="campeones__titulo text-light">Campeones Scuderia Ferrari</h2>
+        <p class="text-light">Estos son los grandes campeones de la historia de F1 de la Scuderia Ferrari</p>
       </div>
-  </section>
 
-  <!-- Donde nos encontramos Mapa -->
-
-  <section class="ubicacion">
-      <h2>Donde encontrarnos</h2>
-      <div class="mapa">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016887889518!2d-58.38375908505231!3d-34.60373446500544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1652296095591!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../Ferrari IMG/Campeones/Alberto Ascari 1952.jfif"
+            alt="Alberto Ascari"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../Ferrari IMG/Campeones/Juan Manuel Fangio 1956 .jfif"
+            alt="Juan Manuel Fangio"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../Ferrari IMG/Campeones/Phil Hill 1961.jfif"
+            alt="Phill Hill"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12"><img src="..//Ferrari IMG/Campeones/Lauda 1975y77.jfif"
+            alt="Niki Lauda"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../Ferrari IMG/Campeones/Michel Schumacher 2000-04.jfif"
+            alt="Michael Schumacher"></div>
+        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../Ferrari IMG/Campeones/Kimi Raikkonen 2007.jfif"
+            alt="Kimi Raikkonen"></div>
       </div>
-  </section>
-    </main>
-    <footer class="container-fluid">
-      <div class="footer row">
-          <div class="footer__btn btn col">
-              <button class="footer__btn__help btn text-light">Ayuda</button>
-          </div>
-          <div class="redes col">
-              <ul>
-                <li><a href="https://www.instagram.com/scuderiaferrari" target="_blank"><img src="../Ferrari IMG/Redes/instagram (1).png" alt="Instagram" class="redes__img" ></a></li>
-                  <li><a href="https://www.youtube.com/c/Ferrari/featured" target="_blank"><img src="../Ferrari IMG/Redes/youtube.png" alt="Youtube" class="redes__img"></a></li>
-                  <li><a href="https://www.linkedin.com/showcase/scuderiaferrari/" target="_blank"><img src="../Ferrari IMG/Redes/linkedin.png" alt="Linkedin" class="redes__img"></a></li>
-                  <li><a href="https://www.tiktok.com/discover/Scuderia-Ferrari?lang=es" target="_blank"><img src="../Ferrari IMG/Redes/tik-tok.png" alt="Tik Tok" class="redes__img"></a></li>
-              </ul>
-          </div>
+
+    </section>
+  </main>
+  <footer class="container-fluid">
+    <div class="footer row">
+      <div class="footer__btn btn col">
+        <button class="footer__btn__help btn text-light">Ayuda</button>
+        <p class="copy">© 2022 Maccarone Daniel. Todos los derechos reservados</p>
+      </div>
+      <div class="redes col">
+        <ul>
+          <li><a href="https://www.instagram.com/scuderiaferrari" target="_blank"><img
+                src="../Ferrari IMG/Redes/instagram (1).png" alt="Instagram" class="redes__img"></a></li>
+          <li><a href="https://www.youtube.com/c/Ferrari/featured" target="_blank"><img
+                src="../Ferrari IMG/Redes/youtube.png" alt="Youtube" class="redes__img"></a></li>
+          <li><a href="https://www.linkedin.com/showcase/scuderiaferrari/" target="_blank"><img
+                src="../Ferrari IMG/Redes/linkedin.png" alt="Linkedin" class="redes__img"></a></li>
+          <li><a href="https://www.tiktok.com/discover/Scuderia-Ferrari?lang=es" target="_blank"><img
+                src="../Ferrari IMG/Redes/tik-tok.png" alt="Tik Tok" class="redes__img"></a></li>
+        </ul>
+      </div>
       <div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-</script>
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

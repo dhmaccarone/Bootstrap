@@ -1,7 +1,7 @@
 {
-  "name": "formula-1-daniel-maccarone1",
+  "name": "Scudería Ferrari LATAM",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web de la Scuderia Ferrari de F1 en Español, dedicada a todos los fans de Latinoamérica",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

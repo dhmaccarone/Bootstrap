@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Información sobre Scuderia Ferrari de Formula 1 en LATAM, donde encontraran información sobre carreras,pilotos, galerias de fotos, caledario 2022">
-  <meta name="keywords" content="FERRARI, F1, LECLERC, SAINZ, TIFOSI, RACE, FORMULA 1, CALENDARIO F1. F1-75, TEAM, LATAM">
-     <!-- CSS only -->
+  <meta name="description"
+    content="Información sobre Scuderia Ferrari de Formula 1 en LATAM, donde encontraran información sobre carreras,pilotos, galerias de fotos, caledario 2022">
+  <meta name="keywords"
+    content="FERRARI, F1, LECLERC, SAINZ, TIFOSI, RACE, FORMULA 1, CALENDARIO F1. F1-75, TEAM, LATAM NEWSLETTER">
+
+  <!-- CSS only -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Play&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="../css/estilo.css">
-    <title>Scuderia Ferrari Calendario</title>
+  <link rel="icon" href="../Ferrari IMG/Principal/favicon-32x32.png">
+  <title>Scuderia Ferrari Calendario</title>
 </head>
+
 <body class="bg-dark">
   <header class="header__nav">
-    <nav class="header__navbar navbar navbar-expand-lg text-light">
+    <nav class="header__navbar navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand text-light" href="../index.html"><img src="../Ferrari IMG/caballo52.png" alt="Logo Ferrari Home"></a>
+        <a class="navbar-brand " href="../index.html"><img src="../Ferrari IMG/Principal/caballo52.png"
+            alt="Logo Ferrari Home"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,138 +35,155 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-light" href="./f1-75.html">F1-75</a>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="./Pilotos.html">PILOTOS</a>
-              </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="./pages/campeones.html">CAMPEONES</a>
-            </li> -->
+              <a class="nav-link boton" href="../pages/f1-75.html">F1-75</a>
             <li class="nav-item">
-              <a class="nav-link text-light" href="./Calendario.html">CALENDARIO</a>
+              <a class="nav-link boton" href="../pages/Pilotos.html">PILOTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link boton" href="../pages/Calendario.html">CALENDARIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link boton" href="../pages/Campeones.html">CAMPEONES</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="header__logo position-fixed">
-      <img src="../Ferrari IMG/logo ferrari.png" alt="logo" class="header__logo__tamaño sticky-top px-3 img-fluid">
+    <div class="header__logo position-absolute">
+      <img src="../Ferrari IMG/Principal/logo ferrari.png" alt="logo"
+        class="header__logo__tamaño sticky-top px-3 img-fluid">
     </div>
   </header>
-    <main>
-      <section class="container">
-        <div>
+  <main>
+    <section class="container">
+      <div>
         <h1 class="titulo__calendario text-light">PRÓXIMAS CARRERAS</h1>
+      </div>
+      <div id="carouselExampleInterval" class="carousel slide img__calendario" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../Ferrari IMG/Calendario/5e3c86fa2949390ad1bed0b8-14_belgium_gp.jpg" class="d-block w-100"
+              alt="Circuito Belgica">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../Ferrari IMG/Calendario/61857c114a7ebb7d9713d1c5-mexico_card_calendario_con_hashtag.jpg"
+              class="d-block w-100" alt="Circuito México">
+          </div>
+          <div class="carousel-item">
+            <img src="../Ferrari IMG/Calendario/618bf41a50fd105669c3e8fc-brazil_card_calendario_con_hashtag.jpg"
+              class="d-block w-100" alt="Circuito Brasil">
+          </div>
         </div>
-        <div id="carouselExampleControls" class="carousel slide img__calendario" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../Ferrari IMG/Calendario/5e3c8a00c63ba41574aa6713-22_abudhabigp.jpg" class="d-block w-100" alt="Abu Dhabi GP">
-            </div>
-            <div class="carousel-item">
-              <img src="../Ferrari IMG/Calendario/5e399008a0c0080ad954899f-2_bahraingp.jpg" class="d-block w-100" alt="Bahrain GP">
-            </div>
-            <div class="carousel-item">
-              <img src="../Ferrari IMG/Calendario/5e3c85f7c63ba41574aa66d3-11_austriagp.jpg" class="d-block w-100" alt="Austria GP">
-            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+    </section>
+    <section class="formulario">
+      <h2 class="formulario__titulo">Suscribite a nuestro newsletter</h2>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
+          <div class="valid-feedback">
+            Looks good!
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-      </section>
-      <section class="formulario">
-        <form class="row g-3 needs-validation" novalidate>
-          <div class="col-md-4">
-            <label for="validationCustom01" class="form-label">First name</label>
-            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" required>
+          <div class="valid-feedback">
+            Looks good!
           </div>
-          <div class="col-md-4">
-            <label for="validationCustom02" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4">
-            <label for="validationCustomUsername" class="form-label">Username</label>
-            <div class="input-group has-validation">
-              <span class="input-group-text" id="inputGroupPrepend">@</span>
-              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-              <div class="invalid-feedback">
-                Please choose a username.
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <label for="validationCustom03" class="form-label">City</label>
-            <input type="text" class="form-control" id="validationCustom03" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Correo electrónico</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">📩</span>
+            <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+              required>
             <div class="invalid-feedback">
-              Please provide a valid city.
+              Por favor, introducir valor válido.
             </div>
           </div>
-          <div class="col-md-3">
-            <label for="validationCustom04" class="form-label">State</label>
-            <select class="form-select" id="validationCustom04" required>
-              <option selected disabled value="">Choose...</option>
-              <option>...</option>
-            </select>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Por favor, introducir valor válido.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Sexo</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Seleccionar..</option>
+            <option>Hombre</option>
+            <option>Mujer</option>
+            <option>No binario</option>
+          </select>
+          <div class="invalid-feedback">
+            Por favor, introducir valor válido.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Código Postal</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Por favor, introducir valor válido.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Aceptar términos y condiciones
+            </label>
             <div class="invalid-feedback">
-              Please select a valid state.
+              You must agree before submitting.
             </div>
           </div>
-          <div class="col-md-3">
-            <label for="validationCustom05" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="validationCustom05" required>
-            <div class="invalid-feedback">
-              Please provide a valid zip.
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-              <label class="form-check-label" for="invalidCheck">
-                Agree to terms and conditions
-              </label>
-              <div class="invalid-feedback">
-                You must agree before submitting.
-              </div>
-            </div>
-          </div>
-          <div class="col-12">
-            <button class="btn__enviar btn" type="submit">Submit form</button>
-          </div>
-          <div class="col-12">
-            <button class="btn__limpiar btn" type="reset">Submit form</button>
-          </div>
-        </form>
-      </section>
-    </main>
-    <footer class="container-fluid">
-      <div class="footer row">
-          <div class="footer__btn btn col-lg-6 col-sm-12">
-              <button class="footer__btn__help btn text-light">Ayuda</button>
-          </div>
-          <div class="redes col-lg-6 col-sm-12">
-              <ul>
-                <li><a href="https://www.instagram.com/scuderiaferrari" target="_blank"><img src="../Ferrari IMG/Redes/instagram (1).png" alt="Instagram" class="redes__img" ></a></li>
-                  <li><a href="https://www.youtube.com/c/Ferrari/featured" target="_blank"><img src="../Ferrari IMG/Redes/youtube.png" alt="Youtube" class="redes__img"></a></li>
-                  <li><a href="https://www.linkedin.com/showcase/scuderiaferrari/" target="_blank"><img src="../Ferrari IMG/Redes/linkedin.png" alt="Linkedin" class="redes__img"></a></li>
-                  <li><a href="https://www.tiktok.com/discover/Scuderia-Ferrari?lang=es" target="_blank"><img src="../Ferrari IMG/Redes/tik-tok.png" alt="Tik Tok" class="redes__img"></a></li>
-              </ul>
-          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn__enviar btn" type="submit">Enviar</button>
+        </div>
+        <div class="col-12">
+          <button class="btn__limpiar btn" type="reset">Resetear</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="container-fluid">
+    <div class="footer row">
+      <div class="footer__btn btn col-lg-6 col-sm-12">
+        <button class="footer__btn__help btn text-light">Ayuda</button>
+        <p class="copy">© 2022 Maccarone Daniel. Todos los derechos reservados</p>
+      </div>
+      <div class="redes col-lg-6 col-sm-12">
+        <ul>
+          <li><a href="https://www.instagram.com/scuderiaferrari" target="_blank"><img
+                src="../Ferrari IMG/Redes/instagram (1).png" alt="Instagram" class="redes__img"></a></li>
+          <li><a href="https://www.youtube.com/c/Ferrari/featured" target="_blank"><img
+                src="../Ferrari IMG/Redes/youtube.png" alt="Youtube" class="redes__img"></a></li>
+          <li><a href="https://www.linkedin.com/showcase/scuderiaferrari/" target="_blank"><img
+                src="../Ferrari IMG/Redes/linkedin.png" alt="Linkedin" class="redes__img"></a></li>
+          <li><a href="https://www.tiktok.com/discover/Scuderia-Ferrari?lang=es" target="_blank"><img
+                src="../Ferrari IMG/Redes/tik-tok.png" alt="Tik Tok" class="redes__img"></a></li>
+        </ul>
+      </div>
       <div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-</script>
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
