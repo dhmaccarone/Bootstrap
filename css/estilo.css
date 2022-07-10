@@ -124,7 +124,8 @@ body {
     outline: none;
     border-radius: 5px;
     background: #383f53;
-    border: none; }
+    border: none;
+    margin-top: 20px; }
     .formulario .btn__enviar:hover {
       box-shadow: 2px 2px 15px 2px #ffffff; }
   .formulario .btn__limpiar {
@@ -135,7 +136,8 @@ body {
     outline: none;
     border-radius: 5px;
     background: #383f53;
-    border: none; }
+    border: none;
+    margin-top: 20px; }
     .formulario .btn__limpiar:hover {
       box-shadow: 2px 2px 15px 2px #ffffff; }
 
@@ -153,7 +155,8 @@ body {
       outline: none;
       border-radius: 5px;
       background: #383f53;
-      border: none; }
+      border: none;
+      margin-top: 20px; }
       .footer .footer__btn .footer__btn__help:hover {
         box-shadow: 2px 2px 15px 2px #ffffff; }
     .footer .footer__btn .copy {
