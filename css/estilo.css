@@ -7,7 +7,6 @@
 body {
   font-family: "PT Sans Caption", sans-serif; }
 
-/* Media Querys */
 .header__nav {
   font-family: "Merriweather Sans", sans-serif;
   background-color: #c10509;
@@ -63,7 +62,7 @@ body {
 
 .titulo__f1 {
   font-family: 'Play', sans-serif;
-  font-size: 4rem;
+  font-size: 3.4rem;
   text-align: center;
   margin-top: 60px;
   animation: bounceIn;
@@ -161,7 +160,7 @@ body {
       text-align: left;
       font-size: .7rem;
       color: black;
-      margin-bottom: 0; }
+      margin-top: 70px; }
 
 .redes {
   display: flex;
